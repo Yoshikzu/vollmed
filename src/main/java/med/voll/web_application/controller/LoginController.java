@@ -11,4 +11,8 @@ public class LoginController {
         return "autenticacao/login";
     }
 
+    @GetMapping("/logout")
+    public String carregaPaginaLogout(){
+        return "autenticacao/logout";
+    }
 }
